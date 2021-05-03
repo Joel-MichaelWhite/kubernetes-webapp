@@ -1,0 +1,79 @@
+.hero-container {
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+    flex-shrink: 1;
+    
+    background-color:blue;
+    /* width:100%;  */
+    /* min-height:10%;  */
+    height:117vh;
+    /* height: 100vh; */
+}
+.capybara-hero-img {
+    display:flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    /* align-items: stretch; */
+    flex-grow:1;
+    background-image:url("../assets/capybara-hero.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.hero-message {
+    display:flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-grow: 1;
+    font-size: 3em;
+    color: black;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+@media only screen and (max-width: 350px) {
+    .hero-container {
+        height:10vh;
+    }
+    .hero-message {
+        font-size:0.5em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-container {
+        height:31vh;
+    }
+    .hero-message {
+        font-size:0.7em;
+    }
+}
+@media only screen and (min-width: 481px){
+    .hero-container {
+        height:58vh;
+    }
+    .hero-message {
+        font-size:1.5em;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .hero-container {
+        height:100vh;
+    }
+    .hero-message {
+        font-size:2em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-container {
+        height:117;
+    }
+    .hero-message {
+        font-size:3em;
+    }
+}
