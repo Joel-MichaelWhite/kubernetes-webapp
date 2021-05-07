@@ -7,7 +7,7 @@
     background-color:blue;
     /* width:100%;  */
     /* min-height:10%;  */
-    height:117vh;
+    height: 100%;
     /* height: 100vh; */
 }
 .capybara-hero-img {
@@ -19,6 +19,7 @@
     background-image:url("../assets/capybara-hero.jpg");
     background-size:100%;
     background-repeat: no-repeat;
+    
 }
 
 .hero-message {
@@ -28,8 +29,8 @@
     flex-grow: 1;
     font-size: 3em;
     color: black;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 
     
 }
