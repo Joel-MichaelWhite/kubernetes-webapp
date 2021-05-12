@@ -1,0 +1,15 @@
+.homepage-body-text-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text-section-container{
+    flex-basis: 800px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.text-heading{
+    display:flex;
+    font-size:2em;
+}

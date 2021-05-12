@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+import logo from './logo.svg'
 import './App.css';
 import Navbar from './components/navbar'
+import HompageBodyText from './components/homepageBodyText'
 import Hero from './components/hero'
 import HompageGallery from './components/homepageGallery'
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Hero></Hero>
-      {/* <br></br> */}
+      <HompageBodyText></HompageBodyText>
       <HompageGallery></HompageGallery>
     </div>
   );
