@@ -4,10 +4,10 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .gallery-img-container{
     margin-top:15px;
 }
+
 .gallery-img {
     display:flex;
     flex-grow: 1;
