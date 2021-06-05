@@ -1,11 +1,14 @@
 .gallery-container{
     display:flex;
     flex-direction:row;
+    flex-shrink: 1;
+    overflow-x:hidden;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .gallery-img-container{
     margin-top:15px;
+    flex-shrink: 1;
 }
 
 .gallery-img {

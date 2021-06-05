@@ -1,0 +1,28 @@
+.footer-container {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(146, 235, 161);
+    min-height: 200px;
+    justify-content: center;
+}
+
+.social-media-links-container {
+    display:flex;
+    /* max-width: 4000px; */
+    flex-basis:150px;
+    /* flex-shrink:1; */
+    flex-wrap: wrap;
+
+    
+}
+.other-pages-container {
+    /* display:flex;
+    
+    flex-basis:150px;
+    flex-shrink:1;
+    flex-wrap: wrap; */
+
+}
+.social-media-link{
+    /* display:flex; */
+}

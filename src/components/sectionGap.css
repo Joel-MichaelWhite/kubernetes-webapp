@@ -1,0 +1,9 @@
+
+.section-gap-container{
+    /* display:flex; */
+    min-height: 100px;
+    /* min-width:600px; */
+    width:100%;
+    background-color: rgb(204, 240, 218);
+    /* flex-grow:1; */
+}
