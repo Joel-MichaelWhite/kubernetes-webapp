@@ -10,10 +10,18 @@ export default function Footer () {
   return (
     <div className="footer-container">
         <div className="social-media-links-container">
-            <FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faYoutube} size="2x"></FontAwesomeIcon>
+            <a href="https://www.instagram.com/explore/tags/capybara/?hl=en">
+              <FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon>
+            </a>
+            <a href="https://www.facebook.com/CapybaraWorld/">
+              <FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon>
+            </a>
+            <a href="https://twitter.com/hashtag/capybara">
+              <FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon>
+            </a>
+            <a href="https://www.youtube.com/c/foodwishes">
+              <FontAwesomeIcon icon={faYoutube} size="2x"></FontAwesomeIcon>
+            </a>
         </div>
         <div className="other-pages-container">
             <div>contact us</div>
